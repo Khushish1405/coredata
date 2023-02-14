@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF1B321291BB262002DE2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B320291BB262002DE2AF /* AppDelegate.swift */; };
+		FBF1B323291BB262002DE2AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B322291BB262002DE2AF /* SceneDelegate.swift */; };
+		FBF1B325291BB262002DE2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B324291BB262002DE2AF /* ViewController.swift */; };
+		FBF1B328291BB262002DE2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1B326291BB262002DE2AF /* Main.storyboard */; };
+		FBF1B32B291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B329291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodeld */; };
+		FBF1B32D291BB262002DE2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF1B32C291BB262002DE2AF /* Assets.xcassets */; };
+		FBF1B330291BB262002DE2AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1B32E291BB262002DE2AF /* LaunchScreen.storyboard */; };
+		FBF1B338291BB5A3002DE2AF /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF1B337291BB5A3002DE2AF /* boy.png */; };
+		FBF1B33A291BB5AB002DE2AF /* girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF1B339291BB5AB002DE2AF /* girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png */; };
+		FBF1B33C291BCCAC002DE2AF /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B33B291BCCAC002DE2AF /* DisplayViewController.swift */; };
+		FBF1B33E291BCE42002DE2AF /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B33D291BCE42002DE2AF /* myCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF1B31D291BB262002DE2AF /* Dharvi_Prac_Dtbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dharvi_Prac_Dtbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1B320291BB262002DE2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF1B322291BB262002DE2AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBF1B324291BB262002DE2AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF1B327291BB262002DE2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF1B32A291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dharvi_Prac_Dtbs.xcdatamodel; sourceTree = "<group>"; };
+		FBF1B32C291BB262002DE2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF1B32F291BB262002DE2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF1B331291BB262002DE2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF1B337291BB5A3002DE2AF /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
+		FBF1B339291BB5AB002DE2AF /* girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png"; sourceTree = "<group>"; };
+		FBF1B33B291BCCAC002DE2AF /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		FBF1B33D291BCE42002DE2AF /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF1B31A291BB262002DE2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF1B314291BB262002DE2AF = {
+			isa = PBXGroup;
+			children = (
+				FBF1B31F291BB262002DE2AF /* Dharvi_Prac_Dtbs */,
+				FBF1B31E291BB262002DE2AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF1B31E291BB262002DE2AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1B31D291BB262002DE2AF /* Dharvi_Prac_Dtbs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF1B31F291BB262002DE2AF /* Dharvi_Prac_Dtbs */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1B339291BB5AB002DE2AF /* girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png */,
+				FBF1B337291BB5A3002DE2AF /* boy.png */,
+				FBF1B320291BB262002DE2AF /* AppDelegate.swift */,
+				FBF1B322291BB262002DE2AF /* SceneDelegate.swift */,
+				FBF1B324291BB262002DE2AF /* ViewController.swift */,
+				FBF1B326291BB262002DE2AF /* Main.storyboard */,
+				FBF1B33D291BCE42002DE2AF /* myCell.swift */,
+				FBF1B32C291BB262002DE2AF /* Assets.xcassets */,
+				FBF1B32E291BB262002DE2AF /* LaunchScreen.storyboard */,
+				FBF1B331291BB262002DE2AF /* Info.plist */,
+				FBF1B329291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodeld */,
+				FBF1B33B291BCCAC002DE2AF /* DisplayViewController.swift */,
+			);
+			path = Dharvi_Prac_Dtbs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF1B31C291BB262002DE2AF /* Dharvi_Prac_Dtbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1B334291BB262002DE2AF /* Build configuration list for PBXNativeTarget "Dharvi_Prac_Dtbs" */;
+			buildPhases = (
+				FBF1B319291BB262002DE2AF /* Sources */,
+				FBF1B31A291BB262002DE2AF /* Frameworks */,
+				FBF1B31B291BB262002DE2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dharvi_Prac_Dtbs;
+			productName = Dharvi_Prac_Dtbs;
+			productReference = FBF1B31D291BB262002DE2AF /* Dharvi_Prac_Dtbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF1B315291BB262002DE2AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBF1B31C291BB262002DE2AF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FBF1B318291BB262002DE2AF /* Build configuration list for PBXProject "Dharvi_Prac_Dtbs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF1B314291BB262002DE2AF;
+			productRefGroup = FBF1B31E291BB262002DE2AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF1B31C291BB262002DE2AF /* Dharvi_Prac_Dtbs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF1B31B291BB262002DE2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1B338291BB5A3002DE2AF /* boy.png in Resources */,
+				FBF1B330291BB262002DE2AF /* LaunchScreen.storyboard in Resources */,
+				FBF1B32D291BB262002DE2AF /* Assets.xcassets in Resources */,
+				FBF1B33A291BB5AB002DE2AF /* girl_emoji-modifier-fitzpatrick-type-1-2_1f467-1f3fb_1f3fb.png in Resources */,
+				FBF1B328291BB262002DE2AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF1B319291BB262002DE2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1B33C291BCCAC002DE2AF /* DisplayViewController.swift in Sources */,
+				FBF1B33E291BCE42002DE2AF /* myCell.swift in Sources */,
+				FBF1B32B291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodeld in Sources */,
+				FBF1B325291BB262002DE2AF /* ViewController.swift in Sources */,
+				FBF1B321291BB262002DE2AF /* AppDelegate.swift in Sources */,
+				FBF1B323291BB262002DE2AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF1B326291BB262002DE2AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1B327291BB262002DE2AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF1B32E291BB262002DE2AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1B32F291BB262002DE2AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF1B332291BB262002DE2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF1B333291BB262002DE2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF1B335291BB262002DE2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dharvi_Prac_Dtbs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.Dharvi-Prac-Dtbs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF1B336291BB262002DE2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dharvi_Prac_Dtbs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.Dharvi-Prac-Dtbs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF1B318291BB262002DE2AF /* Build configuration list for PBXProject "Dharvi_Prac_Dtbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1B332291BB262002DE2AF /* Debug */,
+				FBF1B333291BB262002DE2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1B334291BB262002DE2AF /* Build configuration list for PBXNativeTarget "Dharvi_Prac_Dtbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1B335291BB262002DE2AF /* Debug */,
+				FBF1B336291BB262002DE2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBF1B329291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBF1B32A291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodel */,
+			);
+			currentVersion = FBF1B32A291BB262002DE2AF /* Dharvi_Prac_Dtbs.xcdatamodel */;
+			path = Dharvi_Prac_Dtbs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBF1B315291BB262002DE2AF /* Project object */;
+}
